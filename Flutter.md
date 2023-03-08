@@ -15,3 +15,8 @@ which flutter
 ```
 flutter run lib/main_dev.dart
 ```
+
+### clean Xcode
+```
+flutter clean
+```
