@@ -1,6 +1,8 @@
 ## Laravel
 
 ### Database management
+
+#### Seeding and Wiping
 ```
 php artisan migrate:fresh --seed
 
@@ -16,6 +18,12 @@ php artisan db:seed --class=AppleInspectionSeeder
 
 ```
 php artisan db:wipe
+```
+
+#### Migrating
+
+```
+php artisan make:migration add_paid_to_users_table --table=users
 ```
 
 
