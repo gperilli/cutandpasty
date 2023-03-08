@@ -19,7 +19,7 @@ php artisan db:wipe
 ```
 
 
-## Logging stuff
+### Logging stuff
 
 ```
 info()
@@ -30,8 +30,27 @@ dd()
 ```
 
 
-## Dates and Time
+### Dates and Time
 
 ```
 Carbon::now()->toDateTimeString();
+```
+
+### Models and Instnces
+
+```
+$posts = Post::all();
+```
+
+### Server side HTML rendering
+
+```
+@if()
+@elseif ()
+@endif
+```
+
+```
+@foreach($channels as $key => $channel)
+@endforeach
 ```
