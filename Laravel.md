@@ -17,3 +17,14 @@ php artisan db:seed --class=AppleInspectionSeeder
 ```
 php artisan db:wipe
 ```
+
+
+## Logging stuff
+
+```
+info()
+```
+
+```
+dd()
+```
