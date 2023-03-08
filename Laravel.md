@@ -62,3 +62,11 @@ $posts = Post::all();
 @foreach($channels as $key => $channel)
 @endforeach
 ```
+
+#### send variables from controller to blade file
+```
+return view('client/facility/graph/cbm/vherme/facilityInspectionGraph')->with([
+            'facility' => $facility,
+            'test' => $test,
+        ]);
+```
