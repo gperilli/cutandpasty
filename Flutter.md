@@ -1,4 +1,5 @@
 ## Flutter
+https://docs.flutter.dev/reference/flutter-cli
 
 ### set Flutter
 
@@ -19,4 +20,10 @@ flutter run lib/main_dev.dart
 ### clean Xcode
 ```
 flutter clean
+```
+
+### Other Flutter Commands
+
+```
+flutter doctor
 ```
