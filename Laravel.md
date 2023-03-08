@@ -28,3 +28,10 @@ info()
 ```
 dd()
 ```
+
+
+## Dates and Time
+
+```
+Carbon::now()->toDateTimeString();
+```
