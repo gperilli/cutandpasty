@@ -14,6 +14,10 @@ export PATH="$PATH:/Users/gareth/Projects/flutter/bin"
 ```
 which flutter
 ```
+### Cocoapods
+
+https://guides.cocoapods.org/using/getting-started.html#installation
+
 
 ### run dart
 
