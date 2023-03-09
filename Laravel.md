@@ -47,8 +47,14 @@ Carbon::now()->toDateTimeString();
 
 ### Models and Instnces
 
+get all
 ```
 $posts = Post::all();
+```
+
+wipe all
+```
+DB::table('users')->truncate();
 ```
 
 ### Server side HTML rendering
@@ -71,3 +77,5 @@ return view('client/facility/graph/cbm/vherme/facilityInspectionGraph')->with([
             'test' => $test,
         ]);
 ```
+
+
