@@ -37,6 +37,13 @@ info()
 dd()
 ```
 
+### MVC Routing
+
+routes
+```
+routes/web.php
+```
+
 
 ### Dates and Time
 https://carbon.nesbot.com/docs/
@@ -55,6 +62,11 @@ $posts = Post::all();
 wipe all
 ```
 DB::table('users')->truncate();
+```
+
+update
+```
+$user->update(['password' => $userPassword]);
 ```
 
 ### Server side HTML rendering
