@@ -35,3 +35,8 @@ flutter clean
 ```
 flutter doctor
 ```
+
+### Runner
+```
+open ios/Runner.xcworkspace
+```
