@@ -1,8 +1,12 @@
 ## Flutter
 https://docs.flutter.dev/reference/flutter-cli
 
-### set Flutter
+### set up Flutter
 
+```
+export PATH="$PATH:[PATH]/flutter/bin"
+```
+example:
 ```
 export PATH="$PATH:/Users/gareth/Projects/flutter/bin"
 ```
